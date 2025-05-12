@@ -5,7 +5,7 @@
 |Id|Qualifier|Requirement|Type|Test|
 |---|---|---|---|---|
 |HLA00001|SuT|SuT interoperability capabilities shall be documented in a Conformance Statement (CS).|Documentation|Inspection|
-|HLA00002|SuT|SuT CS/SOM shall be complete and valid|Documentation|Inspection|
+|HLA00002|SuT|SuT shall have a complete and valid CS|Documentation|Inspection|
 |HLA00003|SuT|SuT shall publish all object classes attributes defined as published in CS/SOM|Declaration Management||
 |HLA00004|SuT|SuT shall only publish object classes attributes defined as published in CS/SOM|Declaration Management||
 |HLA00005|SuT|SuT shall publish all interaction classes defined as published is CS/SOM|Declaration Management||
