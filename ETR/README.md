@@ -1,4 +1,4 @@
-# ETR Interoperability Capability Badge (ETR)
+# ETR Interoperability Capability Badge (ETR CB)
 
 ## Interoperability Requirements
 
