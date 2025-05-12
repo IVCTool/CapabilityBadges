@@ -5,10 +5,10 @@
 |Id|Qualifier|Requirement|Type|Test|
 |---|---|---|---|---|
 |ETR00001|SuT|SuT shall comply with all requirements associated with the NETN CB|Dependency||	
-|ETR00002|SuT|SuT shall document in CS if the SuT receives entity tasking|Documentation||
-|ETR00003|SuT|SuT shall document in CS if the SuT sends entity tasking.|Documentation||	
-|ETR00004|SuT|SuT shall document in CS if the SuT receives reports.|Documentation||	
-|ETR00005|SuT|SuT shall document in CS if the SuT sends reports.|Documentation||	
+|ETR00002|SuT|SuT shall be documented in CS if it receives entity tasking|Documentation||
+|ETR00003|SuT|SuT shall be documented in CS if it sends entity tasking.|Documentation||	
+|ETR00004|SuT|SuT shall be documented in CS if it receives reports.|Documentation||	
+|ETR00005|SuT|SuT shall be documented in CS if it sends reports.|Documentation||	
 |ETR00006|SuT receives tasking|SuT shall document in CS the supported NETN-SMC EntityControlActions with a 1 task minimum.|Documentation||	
 |ETR00007|SuT sends tasking|SuT shall document in CS the supported NETN-SMC EntityControlActions with a 1 task minimum.|Documentation||	
 |ETR00008|SuT sends reports|SuT shall document in CS supported NETN-ETR ETR_Report interaction subclasses with a 1 report minimum.|Documentation||	
