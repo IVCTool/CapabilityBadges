@@ -1,10 +1,10 @@
-# ETR Interoperability Capability Badge
+# ETR Interoperability Capability Badge (ETR)
 
 ## Interoperability Requirements
 
 |Id|Qualifier|Requirement|Type|Test|
 |---|---|---|---|---|
-||SuT|SuT shall comply with all requirements associated with the NETN generation 4 badge|Dependency||	
+||SuT|SuT shall comply with all requirements associated with the NETN CB|Dependency||	
 ||SuT|SuT shall document in CS if the SuT receives entity tasking|Documentation||
 ||SuT|SuT shall document in CS if the SuT sends entity tasking.|Documentation||	
 ||SuT|SuT shall document in CS if the SuT receives reports.|Documentation||	

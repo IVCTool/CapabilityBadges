@@ -1,4 +1,4 @@
-# NETN Interoperability Capability Badge
+# NETN Interoperability Capability Badge (NETN CB)
 
 ## Interoperability Requirements
 

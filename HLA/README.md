@@ -1,4 +1,4 @@
-# HLA Interoperability Capability Badge
+# HLA Interoperability Capability Badge (HLA CB)
 
 ## Interoperability Requirements
 
