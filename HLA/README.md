@@ -33,12 +33,12 @@
 
 ## Conformance Statement
 
-|Statement|Datatype|Semantics|
-|---|---|---|
-|SuT supports Federate Type Configuration|boolean|Required. True if SuT supports configuration of Federate Type.|
-|SuT supports Federate Name Configuration|boolean|Required. True if SuT supports configuration of Federate Name.|
-|SuT supports HLA Evolved|boolean|Required. True if SuT supports HLA Evolved.|
-|SuT supports HLA4|boolean|Required. True if SuT supports HLA4.|
+|Qualifier|Statement|Datatype|Semantics|
+|---|---|---|---|
+|SuT|SuT supports Federate Type Configuration|boolean|Required. True if SuT supports configuration of Federate Type.|
+|SuT|SuT  supports Federate Name Configuration|boolean|Required. True if SuT supports configuration of Federate Name.|
+|SuT|SuT  supports HLA Evolved|boolean|Required. True if SuT supports HLA Evolved.|
+|SuT|SuT  supports HLA4|boolean|Required. True if SuT supports HLA4.|
 
 
 SuT is HLA Time Regulating	HLA	Y/N	Required

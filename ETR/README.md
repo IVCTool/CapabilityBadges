@@ -36,12 +36,16 @@
 
 ## Conformance Statement
 
-|Statement|Datatype|Semantics|
-|---|---|---|
-|SuT sends entity tasking|boolean||
-|SuT receives entity tasking|boolean||
-|SuT sends reports|boolean||
-|SuT receivs reports|boolean||
+|Qualifier|Statement|Datatype|Semantics|
+|---|---|---|---|
+|SuT|SuT sends entity tasking|boolean||
+|SuT|SuT receives entity tasking|boolean||
+|SuT|SuT sends reports|boolean||
+|SuT|SuT receivs reports|boolean||
+|SuT sends entity tasking|Supported NETN-SMC EntityControlActions|list|1 task minimum|
+|SuT sends receives tasking|Supported NETN-SMC EntityControlActions|list|1 task minimum|
+|SuT sends reports|Supported NETN-SMC EntityControlActions|list|1 task minimum|
+|SuT receivs reports|Supported NETN-SMC EntityControlActions|list|1 task minimum|
 
 
 ## Abbreviations

@@ -16,10 +16,10 @@
 
 ## Conformance Statement
 
-|Statement|Datatype|Semantics|
-|---|---|---|
-|SuT supports HLA Evolved|boolean|Required. True if SuT supports HLA Evolved.|
-|SuT supports HLA4|boolean|Required. True if SuT supports HLA4.|
+|Qualifier|Statement|Datatype|Semantics|
+|---|---|---|---|
+|SuT|SuT supports HLA Evolved|boolean|Required. True if SuT supports HLA Evolved.|
+|SuT|SuT supports HLA4|boolean|Required. True if SuT supports HLA4.|
 
 
 
