@@ -32,5 +32,17 @@ Each requirement has:
 |---|---|---|---|---|
 | CAP00005 | SuT updates X | The SuT shall publish `X` object class. |Declaration Management|IVCT Test Report|
 | CAP00006 | SuT receives X | The SuT shall subscribe to `X` object class. |Declaration Management|IVCT Test Report|
+| CAP00007| SuT updates X | The SuT shall use at least one of the dead-reckoning algorithms defined in CS. |Object Management|IVCT Test Report|
+| CAP00008| SuT receives X | The SuT shall support all dead-reckoning algorithms as defined in CS. |Object Management|Self Declaration|
 
 
+
+## Conformance Statement
+The conformance statement template is used to capture information about the SuT relevant in order to qualify requirements.
+
+|Qualifier|Statement|Datatype|Semantics|
+|---|---|---|---|
+|SuT|SuT updates X|boolean||
+|SuT|SuT receives X |boolean||
+|SuT updates X |DR-Algorithm|list|list of supported dead-reckoning algorithms|
+|SuT receives X |DR-Algorithm|list|list of supported dead-reckoning algorithms|
