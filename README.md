@@ -17,4 +17,20 @@ The following Interoperability Capabilities related to simulation are defined in
 
 Each interopability capability is defined by a set of requirements. Addtional required SuT information is defined in the form of a Conformance Statement (CS) template. 
 
+## Interoperability Requirements
+
+Each requirement has:
+- a unique 8 character Identifier.
+- a qualifier to determine applicability of the requirement based on SuT role
+- the requirement text
+- a type specifying if the requirement is referring to another set of capability requirements (Dependency), if it is a requirement related to Documentation of the SuT or if the requirement is related to any of the HLA service groups.
+- a test method specifying how the requirement is expected to be verified and can either be Self Declaration or IVCT Test Report.
+
+**Example:**
+
+|Id|Qualifier|Requirement|Type|Test|
+|---|---|---|---|---|
+| CAP00005 | SuT updates X | The SuT shall publish `X` object class. |Declaration Management|IVCT Test Report|
+| CAP00006 | SuT receives X | The SuT shall subscribe to `X` object class. |Declaration Management|IVCT Test Report|
+
 
