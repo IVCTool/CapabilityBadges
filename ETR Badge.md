@@ -23,7 +23,7 @@
 |ETR00017|SuT receives entity tasking|SuT accepting a task request shall send `NETN-ETR` `ETR_TaskStatus` interactions to indicate changes in task execution status.|Object Management|org.nato.netn.etr.TC_ETR_0001|	
 |ETR00018|SuT receives entity tasking|SuT accepting a task request shall respond to `NETN-ETR` `SMC_EntityControl.RequestTaskStatus` interaction by sending a `NETN-ETR` `ETR_TaskStatus` interaction with the latest execution status.|Object Management	|org.nato.netn.etr.TC_ETR_0001|
 |ETR00019|SuT receives entity tasking|SuT accepting a task request shall update the `NETN-ETR` `BaseEntity` attributes `PlannedTasks`, `CurrentTasks` and `TaskProgress` to reflect current task status.|Object Management	|org.nato.netn.etr.TC_ETR_0001|
-|ETR00020|SuT sends entity tasking|SuT shall only send `NETN-ETR` `SMC_EntityControl.Task` to an entity with a `NETN-SMC` `BaseEntity.SupportedActions` attribtue value that includes the corresponding task entity control action.|Object Management	|org.nato.netn.etr.TC_ETR_0002|
+|ETR00020|SuT sends entity tasking|SuT shall only send `NETN-ETR` `SMC_EntityControl.Task` to an entity with a `NETN-SMC` `BaseEntity.SupportedActions` attribute value that includes the corresponding task entity control action.|Object Management	|org.nato.netn.etr.TC_ETR_0002|
 
 
 ## Conformance Statement
