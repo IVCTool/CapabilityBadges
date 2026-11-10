@@ -1,4 +1,4 @@
-# ETR Interoperability Capability Badge (ETR CB)
+# ETR Tasking Interoperability Capability Badge (ETR Tasking CB)
 
 ## Interoperability Requirements
 
@@ -10,7 +10,6 @@
 |ETR00004|SuT receives entity tasking|SuT shall publish the `NETN-ETR` `ETR_TaskStatus` interaction class.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|
 |ETR00005|SuT receives entity tasking|SuT shall publish `NETN-ETR` `BaseEntity` attributes `PlannedTasks`, `CurrentTasks` and `TaskProgress`.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|
 |ETR00006|SuT sends entity tasking|SuT shall publish all `NETN-ETR` `SMC_EntityControl.Task` interaction subclasses corresponding to the supported `NETN-SMC` `EntityControlActions` as declared in CS.|Declaration Management|org.nato.netn.etr.TC_ETR_0002|	
-|ETR00007|SuT sends reports|SuT shall publish all `NETN-ETR` `ETR_Report` interaction subclasses as declared in CS.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|	
 |ETR00008|SuT receives entity tasking|SuT shall subscribe to all `NETN-ETR` `SMC_EntityControl.Task` interaction subclasses corresponding to the supported `NETN-SMC` `EntityControlActions` as declared in CS.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|	
 |ETR00009|SuT receives entity tasking|SuT shall subscribe to `NETN-ETR` `SMC_EntityControl.RequestTaskStatus` interaction class.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|	
 |ETR00010|SuT receives entity tasking|SuT shall subscribe to `NETN-ETR` `SMC_EntityControl.CancelTasks` interaction class.|Declaration Management|org.nato.netn.etr.TC_ETR_0001|
@@ -32,13 +31,8 @@
 |---|---|---|---|
 |SuT|SuT sends entity tasking|boolean||
 |SuT|SuT receives entity tasking|boolean||
-|SuT|SuT sends reports|boolean||
-|SuT|SuT receivs reports|boolean||
 |SuT sends entity tasking|Supported NETN-SMC EntityControlActions|list|1 task minimum|
 |SuT sends receives tasking|Supported NETN-SMC EntityControlActions|list|1 task minimum|
-|SuT sends reports|Supported NETN-SMC EntityControlActions|list|1 task minimum|
-|SuT receivs reports|Supported NETN-SMC EntityControlActions|list|1 task minimum|
-
 
 ## Abbreviations
 
